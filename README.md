@@ -1,1 +1,5 @@
-# automl
+# Automated Machine Learning
+
+One of the really hot trends in machine learning at the moment is automated machine learning, or automl. There are several tools, open source and commercial, e.g. H2O that are focusing on this. The key idea behind this movement, and the tools in question, is that once we have data prepared for modeling (and remember, this can often constitute a resource-intensive task that is difficult to avoid) we often follow a scripted procedure of preparing training and test sets, trying out different models, tuning these models with methods such as cross-validation and then comparing these models to pick the final results. Up till now, this has usually involved training models sequentially by hand, and then manually issuing commands to begin training the next model etc… We are now moving to a phase where a lot of the repetitive work that we have been doing as data scientists is beginning to be automated.
+
+With that in mind, the objective of this assignment is to introduce you to this exciting field and mode of work in what we believe to be the best way possible – by actually building your own automl system in Python.
